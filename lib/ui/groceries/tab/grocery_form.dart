@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 
-import '../../models/grocery.dart';
+import '../../../models/grocery.dart';
 
 Uuid uuid = const Uuid();
 

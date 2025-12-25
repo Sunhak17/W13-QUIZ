@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import '../../data/mock_grocery_repository.dart';
-import '../../models/grocery.dart';
+import '../../../data/mock_grocery_repository.dart';
+import '../../../models/grocery.dart';
 import 'grocery_form.dart';
 
 class GroceryList extends StatefulWidget {
-  const GroceryList({super.key});
+  const GroceryList({super.key, required this.groceryId});
+
+  final String groceryId;
 
   @override
   State<GroceryList> createState() => _GroceryListState();
